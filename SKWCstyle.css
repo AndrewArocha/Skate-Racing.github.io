@@ -1,0 +1,113 @@
+html {
+	font-family: Poppins;
+	font-size: 100%;
+	text-decoration-style: italic;
+	background: url(Fondodepagina.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	padding-top: 135px;
+	padding-left: 500px;
+	padding-right: 135px;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: inline;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+img {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+h1 {
+
+	font-size: 3em;
+}
+
+p {
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-size: 125%;
+}
+
+.bg-light {
+	--bs-bg-opacity: 100;
+	background-color: rgb(253, 188, 18)!important;
+}
+
+hr {
+    margin: 20px auto;
+    color: #FDBC12;
+    border: 3px solid #FDBC12;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.btn {
+	font-family: Poppins;
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	background-color: #FEE300;
+	border-color: #FEE300;
+	border-width: 4px;
+}
+
+.btn-primary {
+	background-color: #FDBC12;
+	border-color: #FDBC12;
+}
+
+.btn-primary:hover {
+	
+	background-color: rgb(201, 15, 29);
+	border-color: rgb(201, 15, 29);
+	border-width: 4px;
+}
+
+.btn-xl {
+	padding: 1rem 2rem; 
+}
+
+ /* override Bootstrap's container */
+
+.container-fluid {
+ 	padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+}
+
+.container {
+	background-color: rgba(16, 17, 51, 0.2);
+	background-size: contain;
+ 	padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+}
+
+.buffer {
+	height: 5rem;
+}
+
+.container-fluid {
+
+	padding-right: 15px;
+}
